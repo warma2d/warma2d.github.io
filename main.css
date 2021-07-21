@@ -1,0 +1,38 @@
+@import '../fonts/fonts.css';
+
+:root {
+    --white: #ffffff;
+    --black: #212429;
+    --black-2: #334D6E;
+    --pink: #F784AD;
+    --purple: #7048E8;
+    --blue: #374FC7;
+    --red: #F03D3E;
+    --grey-1: #F8F9FA;
+    --grey-2: #DDE2E5;
+    --grey-3: #ACB5BD;
+    --grey-4: #495057;
+    --grey-5: #E2E6E8;
+    --grey-6: #F3F5F5;
+    --grey-7: #E3E7EA;
+
+
+    --hover-blue: #2342C0;
+    --hover-purple: #5028C6;
+
+    --error: var(--red);
+    --success: var(--blue);
+
+    --primary: var(--blue);
+    --secondary: var(--purple);
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+details, summary, div {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
